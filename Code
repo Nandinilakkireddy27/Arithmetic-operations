@@ -1,0 +1,36 @@
+package basics;
+
+public class calculator {
+	        public static int add(int a, int b){
+		        int c = a+b;
+		        return c;
+	}
+	        public static int sub(int a , int b){
+	        	int c = a-b;
+	        	return c;
+	        }
+	        public static int mul(int a, int b) {
+	        	int c = a*b;
+	        	return c;
+	        }
+	        public static int div(int a, int b) {
+	        	int c = a/b;
+	        	return c;
+	        }
+	        public static int mod(int a, int b) {
+	        	int c = a%b;
+	        	return c;
+	        }
+
+	public static void main(String[] args) {
+		int a = 25;
+		int b = 5;
+		System.out.println("Addition of two numbers is "+add(a,b));
+		System.out.println("Subtraction of two numbers is "+sub(a,b));
+		System.out.println("Multiplication of two numbers is "+mul(a,b));
+		System.out.println("Division of two numbers is "+div(a,b));
+		System.out.println("Modulus of two numbers is "+mod(a,b));
+
+	}
+
+}
